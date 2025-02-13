@@ -476,4 +476,9 @@ section {
 .specs-container {
     display: flex;
     align-items: center;
+}
     
+.section specs {
+    display:flex;
+    align-content: center;
+}
