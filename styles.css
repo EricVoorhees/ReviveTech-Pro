@@ -231,3 +231,19 @@ footer {
     flex-direction: column; /* Stacks items vertically */
     text-align: center; /* Ensures text alignment */
 }
+
+#banner {
+    width: 100%;
+    height: 25vh; /* 25% of the viewport height */
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    overflow: hidden; /* Prevents unwanted overflow */
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the section without distortion */
+    display: block;
+}
