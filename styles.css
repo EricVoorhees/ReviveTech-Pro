@@ -473,3 +473,6 @@ section {
     display: block;
 }
 
+.specs-container {
+    display: flex;
+    
